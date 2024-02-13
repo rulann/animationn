@@ -1,0 +1,49 @@
+@keyframes ltr {
+    from{ margin-left: 0; }
+    to{ margin-left: 90%; }
+}
+
+@keyframes ttb {
+    from {
+         margin-top: 0; 
+         margin-left: 90%;
+        }
+    to { 
+        margin-top: 80vh; 
+        margin-left: 90%;}
+}
+
+@keyframes rtl {
+    from {
+         margin-top: 80vh; 
+         margin-left: 90%;
+        }
+    to { 
+        margin-top: 80vh; 
+        margin-left: 0;}
+}
+
+@keyframes btt {
+    from {
+         margin-top: 80vh; 
+         margin-left: 0;
+        }
+    to { 
+        margin-top: 0; 
+        margin-left: 0;}
+}
+
+@keyframes mid {
+    from {
+         margin-top: 0; 
+         margin-left: 0;
+        }
+    to { margin-top: 40vh; margin-left: 45%; }
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    animation: ltr 4s 1s , ttb 5s 5s, rtl 4s  9.5s, btt 5s 13.5s, mid 5s 19s;
+}
+
